@@ -1,0 +1,145 @@
+<tr>
+<td class="common_skill_name" id="common_skill_name_act">Act</td>
+<td class="common_skill_attribute" headers="common_skill_name_act">Presence</td>
+<td class="common_skill_score" headers="common_skill_name_act">
+	<span class="dsf common_skill_score dsf_common_skill_act"></span>
+</td>
+
+<td class="common_skill_name" id="common_skill_name_firearms">Firearms</td>
+<td class="common_skill_attribute" headers="common_skill_name_firearms">Dexterity</td>
+<td class="common_skill_score" headers="common_skill_name_firearms">
+	<span class="dsf common_skill_score dsf_common_skill_firearms"></span>
+</td>
+</tr><tr>
+<td class="common_skill_name" id="common_skill_name_athletics">Athletics</td>
+<td class="common_skill_attribute" headers="common_skill_name_athletics">Dexterity</td>
+<td class="common_skill_score" headers="common_skill_name_athletics">
+	<span class="dsf common_skill_score dsf_common_skill_athletics"></span>
+</td>
+
+<td class="common_skill_name" id="common_skill_name_fisticuffs">Fisticuffs</td>
+<td class="common_skill_attribute" headers="common_skill_name_fisticuffs">Dexterity</td>
+<td class="common_skill_score" headers="common_skill_name_fisticuffs">
+	<span class="dsf common_skill_score dsf_common_skill_fisticuffs"></span>
+</td>
+</tr><tr>
+<td class="common_skill_name" id="common_skill_name_blunt">Blunt Weapons</td>
+<td class="common_skill_attribute" headers="common_skill_name_blunt">Dexterity</td>
+<td class="common_skill_score" headers="common_skill_name_blunt">
+	<span class="dsf common_skill_score dsf_common_skill_blunt"></span>
+</td>
+
+<td class="common_skill_name" id="common_skill_name_general">General Knowledge</td>
+<td class="common_skill_attribute" headers="common_skill_name_general">Wits</td>
+<td class="common_skill_score" headers="common_skill_name_general">
+	<span class="dsf common_skill_score dsf_common_skill_general"></span>
+</td>
+</tr><tr>
+<td class="common_skill_name" id="common_skill_name_bull">Bull</td>
+<td class="common_skill_attribute" headers="common_skill_name_bull">Presence</td>
+<td class="common_skill_score" headers="common_skill_name_bull">
+	<span class="dsf common_skill_score dsf_common_skill_bull"></span>
+</td>
+
+<td class="common_skill_name" id="common_skill_name_hide">Hide & Sneak</td>
+<td class="common_skill_attribute" headers="common_skill_name_hide">Dexterity</td>
+<td class="common_skill_score" headers="common_skill_name_hide">
+	<span class="dsf common_skill_score dsf_common_skill_hide"></span>
+</td>
+</tr><tr>
+<td class="common_skill_name" id="common_skill_name_charm">Charm</td>
+<td class="common_skill_attribute" headers="common_skill_name_charm">Presence</td>
+<td class="common_skill_score" headers="common_skill_name_charm">
+	<span class="dsf common_skill_score dsf_common_skill_charm"></span>
+</td>
+
+<td class="common_skill_name" id="common_skill_name_horse">Horse Riding</td>
+<td class="common_skill_attribute" headers="common_skill_name_horse">Dexterity</td>
+<td class="common_skill_score" headers="common_skill_name_horse">
+	<span class="dsf common_skill_score dsf_common_skill_horse"></span>
+</td>
+</tr><tr>
+<td class="common_skill_name" id="common_skill_name_conceal">Conceal</td>
+<td class="common_skill_attribute" headers="common_skill_name_conceal">Wits</td>
+<td class="common_skill_score" headers="common_skill_name_conceal">
+	<span class="dsf common_skill_score dsf_common_skill_conceal"></span>
+</td>
+
+<td class="common_skill_name" id="common_skill_name_improvised">Improvised Weapon</td>
+<td class="common_skill_attribute" headers="common_skill_name_improvised">Dexterity</td>
+<td class="common_skill_score" headers="common_skill_name_improvised">
+	<span class="dsf common_skill_score dsf_common_skill_improvised"></span>
+</td>
+</tr><tr>
+<td class="common_skill_name" id="common_skill_name_concentration">Concentration</td>
+<td class="common_skill_attribute" headers="common_skill_name_concentration">Resolve</td>
+<td class="common_skill_score" headers="common_skill_name_concentration">
+	<span class="dsf common_skill_score dsf_common_skill_concentration"></span>
+</td>
+
+<td class="common_skill_name" id="common_skill_name_intimidate">Intimidate</td>
+<td class="common_skill_attribute" headers="common_skill_name_intimidate">Presence</td>
+<td class="common_skill_score" headers="common_skill_name_intimidate">
+	<span class="dsf common_skill_score dsf_common_skill_intimidate"></span>
+</td>
+</tr><tr>
+<td class="common_skill_name" id="common_skill_name_dance*">Dance*</td>
+<td class="common_skill_attribute" headers="common_skill_name_dance*">Dexterity</td>
+<td class="common_skill_score" headers="common_skill_name_dance*">
+	<span class="dsf common_skill_score dsf_common_skill_dance*"></span>
+</td>
+
+<td class="common_skill_name" id="common_skill_name_might">Might</td>
+<td class="common_skill_attribute" headers="common_skill_name_might">Strength</td>
+<td class="common_skill_score" headers="common_skill_name_might">
+	<span class="dsf common_skill_score dsf_common_skill_might"></span>
+</td>
+</tr><tr>
+<td class="common_skill_name" id="common_skill_name_dodge">Dodge</td>
+<td class="common_skill_attribute" headers="common_skill_name_dodge">Dexterity</td>
+<td class="common_skill_score" headers="common_skill_name_dodge">
+	<span class="dsf common_skill_score dsf_common_skill_dodge"></span>
+</td>
+
+<td class="common_skill_name" id="common_skill_name_perception">Perception</td>
+<td class="common_skill_attribute" headers="common_skill_name_perception">Wits</td>
+<td class="common_skill_score" headers="common_skill_name_perception">
+	<span class="dsf common_skill_score dsf_common_skill_perception"></span>
+</td>
+</tr><tr>
+<td class="common_skill_name" id="common_skill_name_drive">Drive Carriage</td>
+<td class="common_skill_attribute" headers="common_skill_name_drive">Wits</td>
+<td class="common_skill_score" headers="common_skill_name_drive">
+	<span class="dsf common_skill_score dsf_common_skill_drive"></span>
+</td>
+
+<td class="common_skill_name" id="common_skill_name_streetwise*">Streetwise*</td>
+<td class="common_skill_attribute" headers="common_skill_name_streetwise*">Presence</td>
+<td class="common_skill_score" headers="common_skill_name_streetwise*">
+	<span class="dsf common_skill_score dsf_common_skill_streetwise*"></span>
+</td>
+</tr><tr>
+<td class="common_skill_name" id="common_skill_name_empathy">Empathy</td>
+<td class="common_skill_attribute" headers="common_skill_name_empathy">Presence</td>
+<td class="common_skill_score" headers="common_skill_name_empathy">
+	<span class="dsf common_skill_score dsf_common_skill_empathy"></span>
+</td>
+
+<td class="common_skill_name" id="common_skill_name_swordplay">Swordplay</td>
+<td class="common_skill_attribute" headers="common_skill_name_swordplay">Dexterity</td>
+<td class="common_skill_score" headers="common_skill_name_swordplay">
+	<span class="dsf common_skill_score dsf_common_skill_swordplay"></span>
+</td>
+</tr><tr>
+<td class="common_skill_name" id="common_skill_name_etiquette*">Etiquette*</td>
+<td class="common_skill_attribute" headers="common_skill_name_etiquette*">Wits</td>
+<td class="common_skill_score" headers="common_skill_name_etiquette*">
+	<span class="dsf common_skill_score dsf_common_skill_etiquette*"></span>
+</td>
+
+<td class="common_skill_name" id="common_skill_name_throwing">Throwing</td>
+<td class="common_skill_attribute" headers="common_skill_name_throwing">Dexterity</td>
+<td class="common_skill_score" headers="common_skill_name_throwing">
+	<span class="dsf common_skill_score dsf_common_skill_throwing"></span>
+</td>
+</tr>
