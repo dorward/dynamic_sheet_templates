@@ -12,6 +12,7 @@ var dynamic_sheet_attrs = {
   "gender": "Male",
   "vocation": "Soldier",
   "race": "Human",
+  "build": "Medium",
   "personality": "Optimist",
   "hair": "Brown",
   "eyes": "Brown",
@@ -22,7 +23,7 @@ var dynamic_sheet_attrs = {
   "fort": 2,
   "pres": 2,
   "wits": 2,
-  "res": 2,
+  "res": 1,
 
   "common_skill_act" : 0,
   "common_skill_athletics" : 0,
