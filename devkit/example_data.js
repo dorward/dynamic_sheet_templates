@@ -1,7 +1,7 @@
 // This is some example data to use.
 // Feel free to modify this to make sense with the game system you're using.
 var dynamic_sheet_attrs = {
-  "name" : "Tordek",
+  "name" : "Harrison Scully",
   "player" : "<a href='http://www.obsidianportal.com/profile/dorward'>dorward</a>",
   "campaign" : "<a href='http://www.obsidianportal.com/campaigns/jago-and-litefoot'>Victoriana</a>",
   "rank": 1,
