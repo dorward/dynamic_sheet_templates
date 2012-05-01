@@ -3,6 +3,7 @@
 use strict;
 use warnings;
 use v5.12;
+use JSON;
 
 my $data = q{
 <td class="common_skill_name" id="common_skill_name_%s">%s</td>
@@ -61,3 +62,7 @@ sub get_html {
 }
 
 say $skill_html;
+say "-------------------";
+my %defaults;
+$defaults{$_} = 0 foreach map { my @foo = split ' ', lc $_->{name};  'common_skill_' . $foo[0]; } @listing;
+say to_json( \%defaults, { ascii => 1, pretty => 1 } );
