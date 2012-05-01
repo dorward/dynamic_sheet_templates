@@ -31,7 +31,7 @@
   <div class="dynamic_sheet_container">
   
     <!-- Every dynamic sheet will be surrounded by a div that has the class of "ds_DST_SLUG". In this example, the slug for my DST is 'victoriana' -->
-    <div>
+    <div id="dynamic_sheet_999" class="dynamic_sheet ds_victoriana editable">
       <!-- This is inserted automatically. Ignore it... -->
       <span style="display:none;" class="dst_slug">victoriana</span>
       <!-- 
@@ -308,11 +308,11 @@
   </div> <!-- dynamic_sheet_container -->
   <br/><br/>
   
-  <button>Save</button>
+  <button id="character-save-button">Save</button>
   <br/>
   <p>
     Right here is a hidden &lt;div&gt; that holds the data values that will be saved to the server. Click the save button and then examine the DOM (using Firebug) to see what will be sent.
   </p>
-  <div></div>
+  <div id="dynamic_sheet_values" style="display:none;"></div>
 </body>
 </html>
