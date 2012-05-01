@@ -7,61 +7,103 @@
 /****************************
 * Basic Info
 *****************************/
-.ds_victoriana .level {
+
+
+
+.ds_victoriana .basic_info div {
+  display: inline-block;
+  width: 30%;
+  margin: 0 0.5%;
+  overflow: hidden;
 }
 
+.ds_victoriana .basic_info span {
+  display: inline-block;
+  width: 45%;
+  margin: 0;
+  font-variant: small-caps;
+  font-size: 90%;
+  vertical-align: bottom;
+}
+
+.ds_victoriana .basic_info .dsf {
+  display: inline;
+  width: auto;
+  margin: 0;
+  font-variant: normal;
+  font-size: 100%;
+}
+
+.ds_victoriana .basic_info .name {
+  display: block;
+  width: auto;
+}
+
+.ds_victoriana .basic_info .name span {
+  width: auto;
+  margin-right: 5px;
+}
+
+.ds_victoriana .basic_info .name .dsf {
+  font-size: 110%;
+  font-weight: bold;
+}
+
+
 /****************************
-* Ability Scores
+* Chracteristics
 *****************************/
 .ds_victoriana .ability_scores {
   margin-top: 30px;
 }
 
-.ds_victoriana .ability_score {
-  clear: left;
+.ds_victoriana .ability_scores .ability_score {
+  margin-top: 3px;
 }
 
-.ds_victoriana .ability_score_header span {
-  display: block;
-  float: left;
-  width: 120px;
-  font-weight: bold;
+.ds_victoriana .ability_scores .abilities_block {
+  display: inline-block;
+  margin-right: 1em;
 }
 
-.ds_victoriana .ability_score_name {
-  display: block;
-  float: left;
-  width: 120px;
-  font-weight: bold;
+.ds_victoriana .ability_scores .ability_score_score {
+  display: inline-block;
+  border: solid black 1px;
+  border-radius: 1em;
+  width: 2em;
+  text-align: center;
+  line-height: 2em;
+  vertical-align: middle;
+
 }
 
-.ds_victoriana .ability_score_score {
-  display: block;
-  float: left;
-  width: 120px;
-}
-
-.ds_victoriana .ability_score_modifier {
-  display: block;
-  float: left;
-  width: 120px;
-}
-
-.ds_victoriana .ability_score_modifier_plus_half_level {
-  display: block;
-  float: left;
-  width: 120px;
+.ds_victoriana .ability_scores .ability_score_name {
+  display: inline-block;
+  line-height: 2em;
+  vertical-align: middle; 
+  font-variant: small-caps;
+  font-size: 90%;
 }
 
 /****************************
-* Ability Scores
+* Common Skills 
 *****************************/
-
-.ds_victoriana .trained_skills {
-  margin-top: 30px;
-  clear: both;
+.ds_victoriana .common_skills table {
+  border: solid black 1px;
+  border-collapse: collapse;
 }
 
-.ds_victoriana .trained_skills ul {
-  list-style-type: none;
+.ds_victoriana .common_skills td {
+  padding: 0 4px;
+}
+
+.ds_victoriana .common_skill_name {
+  font-variant: small-caps;
+  font-size: 90%;
+  border-left: solid black 1px;
+}
+
+.ds_victoriana .common_skill_attribute {
+  font-style: italic;
+  font-size: 90%;
 }
