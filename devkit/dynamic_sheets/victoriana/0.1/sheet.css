@@ -88,22 +88,22 @@
 /****************************
 * Common Skills 
 *****************************/
-.ds_victoriana .common_skills table {
+.ds_victoriana .skills table {
   border: solid black 1px;
   border-collapse: collapse;
 }
 
-.ds_victoriana .common_skills td {
+.ds_victoriana .skills td {
   padding: 0 4px;
 }
 
-.ds_victoriana .common_skill_name {
+.ds_victoriana .skill_name {
   font-variant: small-caps;
   font-size: 90%;
   border-left: solid black 1px;
 }
 
-.ds_victoriana .common_skill_attribute {
+.ds_victoriana .skill_attribute {
   font-style: italic;
   font-size: 90%;
 }
