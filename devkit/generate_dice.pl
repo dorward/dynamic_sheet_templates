@@ -7,8 +7,8 @@ use JSON;
 
 my $template = q{
 <div class="die">
-	<span class="dsf checkbox health_die_%d"></span>
-	<span class="dsf checkbox health_die_%d"></span>
+	<span class="dsf top checkbox health_die_%d"></span>
+	<span class="dsf bottom checkbox health_die_%d"></span>
 </div>
             };
 

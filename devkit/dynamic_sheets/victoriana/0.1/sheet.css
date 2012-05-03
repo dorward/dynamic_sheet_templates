@@ -49,6 +49,16 @@
   font-weight: bold;
 }
 
+/****************************
+* Small blocks of data
+*****************************/
+.ds_victoriana .sidebar {
+  width: 250px;
+}
+
+.ds_victoriana .sidebar > div {
+  clear: both;
+}
 
 /****************************
 * Chracteristics
@@ -105,6 +115,45 @@
   padding-left: 0.5em;
   padding-right: 0.5em;
   margin-right: 0.5em;
+}
+
+.ds_victoriana .dice {
+  overflow: : hidden;
+}
+
+.ds_victoriana .dice .die {
+  float: right;
+  border: solid black 1px;
+  border-radius: 0.2em;
+  position: relative;
+  height: 40px;
+  width: 40px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  margin: 4px;
+}
+
+.ds_victoriana .dice .negative {
+  background: #aaa;
+}
+
+.ds_victoriana .dice .die span {
+  position: absolute;
+  opacity: 0.7;
+  z-index: 2;
+}
+
+.ds_victoriana .dice .die .top {
+  top: 2px;
+  right: 2px;
+}
+
+.ds_victoriana .dice .die .bottom {
+  bottom: 2px;
+  left: 2px;
 }
 
 /****************************
