@@ -90,6 +90,22 @@
   margin-left: 4em;
 }
 
+.ds_victoriana .characteristics .ability_score_subsection span {
+  display: inline-block;
+}
+
+.ds_victoriana .characteristics .ability_score_subsection .ability_score_subsection_name {
+  margin-right: 1em;
+}
+
+.ds_victoriana .characteristics .ability_score_subsection .ability_score_subsection_score {
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+  border-radius: 0.75em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-right: 0.5em;
+}
 
 /****************************
 * Common Skills 
