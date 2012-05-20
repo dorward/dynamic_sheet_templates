@@ -12,6 +12,8 @@
   font-family: courier, "courier new", monospace;
   margin: 0;
   padding-top: 4px;
+  margin-top: 4px;
+  clear: both;
 }
 
 .ds_victoriana .instructions {
@@ -36,7 +38,7 @@
 
 .skills { 
   width: 450px;
-  padding: 0 4px;
+  padding: 0 4px 4px 4px;
   overflow: hidden;
   background: url(images/paper.jpg);
 }
@@ -52,6 +54,10 @@
 
 .ds_victoriana .biography {
   clear: both;
+}
+
+.ds_victoriana .sidebar h3 {
+  border-top: solid #aaa 1px;
 }
 
 
