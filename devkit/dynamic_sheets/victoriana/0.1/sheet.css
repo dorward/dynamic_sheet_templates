@@ -14,6 +14,17 @@
   padding-top: 4px;
   margin-top: 4px;
   clear: both;
+  text-align: center;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.ds_victoriana table {
+  width: 100%;
+}
+
+.ds_victoriana table  td[scope] {
+  font-weight: bold;
 }
 
 .ds_victoriana .instructions {
@@ -22,6 +33,22 @@
   font-style: italic;
   margin-bottom: 0.5em;
 }
+
+.ds_victoriana .row {
+  clear: both;
+  overflow: hidden;
+}
+
+.ds_victoriana .double_width_column {
+  float: left;
+  width: 488px;
+}
+
+.ds_victoriana .single_width_column {
+  float: left;
+  width: 244px;
+}
+
 
 /****************************
 * Editor layout
