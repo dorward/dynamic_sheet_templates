@@ -22,6 +22,15 @@
 }
 
 /****************************
+* Editor layout
+*****************************/
+
+.ds_victoriana form,
+.ds_victoriana form * {
+  display: inline;
+}
+
+/****************************
 * Main section layout
 *****************************/
 
