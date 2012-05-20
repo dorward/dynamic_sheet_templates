@@ -13,8 +13,32 @@
   font-size: 80%;
   font-style: italic;
   margin-bottom: 0.5em;
-
 }
+
+/****************************
+* Main section layout
+*****************************/
+
+.skills { 
+  width: 450px;
+  padding: 0 4px;
+  overflow: hidden;
+  background: url(images/paper.jpg);
+}
+
+.ds_victoriana .sidebar {
+  width: 250px;
+  float: left;
+}
+
+.ds_victoriana .sidebar > div {
+  clear: both;
+}
+
+.ds_victoriana .biography {
+  clear: both;
+}
+
 
 /****************************
 * Basic Info
@@ -57,17 +81,6 @@
 .ds_victoriana .basic_info .name .dsf {
   font-size: 110%;
   font-weight: bold;
-}
-
-/****************************
-* Small blocks of data
-*****************************/
-.ds_victoriana .sidebar {
-  width: 250px;
-}
-
-.ds_victoriana .sidebar > div {
-  clear: both;
 }
 
 /****************************
@@ -174,12 +187,43 @@
   left: 2px;
 }
 
+.ds_victoriana .dice .die .mana_die_position_1 {
+  left: 2px;
+  top: 0px;
+}
+
+.ds_victoriana .dice .die .mana_die_position_2 {
+  left: 2px;
+  top: 11px;
+}
+
+.ds_victoriana .dice .die .mana_die_position_3 {
+  left: 2px;
+  top: 23px;
+}
+
+.ds_victoriana .dice .die .mana_die_position_4 {
+  right: 2px;
+  top: 0px;
+}
+
+.ds_victoriana .dice .die .mana_die_position_5 {
+  right: 2px;
+  top: 11px;
+}
+
+.ds_victoriana .dice .die .mana_die_position_6 {
+  right: 2px;
+  top: 23px;
+}
+
 /****************************
-* Common Skills 
+* Skills 
 *****************************/
 .ds_victoriana .skills table {
   border: solid black 1px;
   border-collapse: collapse;
+  width: 100%;
 }
 
 .ds_victoriana .skills td {
@@ -190,9 +234,15 @@
   font-variant: small-caps;
   font-size: 90%;
   border-left: solid black 1px;
+  width: 25%;
 }
 
 .ds_victoriana .skill_attribute {
   font-style: italic;
   font-size: 90%;
+  width: 15%;
+}
+
+.ds_victoriana .skill_score {
+  width: 10%;
 }
