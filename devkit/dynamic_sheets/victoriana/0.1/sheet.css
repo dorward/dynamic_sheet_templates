@@ -63,7 +63,11 @@
 * Main section layout
 *****************************/
 
-.skills { 
+.ds_victoriana  .dynamic_sheet_html_template {
+  float: left;
+}
+
+.ds_victoriana .skills { 
   width: 450px;
   padding: 0 4px 4px 4px;
   overflow: hidden;
