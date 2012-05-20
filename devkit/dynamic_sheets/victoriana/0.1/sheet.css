@@ -8,6 +8,12 @@
 * Generic formatting
 *****************************/
 
+h3 {
+  font-family: courier, "courier new", monospace;
+  margin: 0;
+  padding-top: 4px;
+}
+
 .ds_victoriana .instructions {
   display: block;
   font-size: 80%;
@@ -71,6 +77,7 @@
 .ds_victoriana .basic_info .name {
   display: block;
   width: auto;
+  font-family: courier, "courier new", monospace;
 }
 
 .ds_victoriana .basic_info .name span {
