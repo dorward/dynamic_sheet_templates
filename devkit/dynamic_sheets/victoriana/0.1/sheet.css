@@ -234,7 +234,7 @@
   font-variant: small-caps;
   font-size: 90%;
   border-left: solid black 1px;
-  width: 25%;
+  width: 30%;
 }
 
 .ds_victoriana .skill_attribute {
@@ -244,5 +244,5 @@
 }
 
 .ds_victoriana .skill_score {
-  width: 10%;
+  width: 5%;
 }
