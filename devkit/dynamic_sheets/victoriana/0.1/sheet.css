@@ -156,7 +156,6 @@
   text-align: center;
   line-height: 2em;
   vertical-align: middle;
-
 }
 
 .ds_victoriana .characteristics .ability_score_name {
@@ -299,3 +298,33 @@
 .ds_victoriana .skill_score {
   width: 5%;
 }
+
+/****************************
+* Number counting boxes 
+*****************************/
+.ds_victoriana .round_tracker {
+  display: inline-block;
+}
+
+.ds_victoriana .xp .round_tracker {
+  width: 48%;
+  text-align: center;
+}
+
+.ds_victoriana .round_tracker .name {
+  font-size: 75%;
+  font-style: italic;
+  display: block;
+}
+
+.ds_victoriana .round_tracker .score {
+  display: block;
+  margin: auto;
+  border: solid black 1px;
+  border-radius: 1em;
+  width: 2em;
+  text-align: center;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
