@@ -269,6 +269,10 @@
 /****************************
 * Skills 
 *****************************/
+.ds_victoriana .skills {
+  float: right;
+}
+
 .ds_victoriana .skills table {
   border: solid black 1px;
   border-collapse: collapse;
