@@ -5,10 +5,20 @@
 
 
 /****************************
-* Basic Info
+* Generic formatting
 *****************************/
 
+.ds_victoriana .instructions {
+  display: block;
+  font-size: 80%;
+  font-style: italic;
+  margin-bottom: 0.5em;
 
+}
+
+/****************************
+* Basic Info
+*****************************/
 
 .ds_victoriana .basic_info div {
   display: inline-block;
@@ -98,10 +108,18 @@
 .ds_victoriana .characteristics .ability_score_subsection {
   font-size: 80%;
   margin-left: 4em;
+  display: table;
 }
 
-.ds_victoriana .characteristics .ability_score_subsection span {
-  display: inline-block;
+.ds_victoriana .characteristics .ability_score_subsection_entry {
+  display: table-row;
+}
+
+
+.ds_victoriana .characteristics .ability_score_subsection_entry span{
+  display: table-cell;
+  padding: 0.25em;
+  vertical-align: middle;
 }
 
 .ds_victoriana .characteristics .ability_score_subsection .ability_score_subsection_name {
@@ -114,7 +132,7 @@
   border-radius: 0.75em;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  margin-right: 0.5em;
+  text-align: center;
 }
 
 .ds_victoriana .dice {
