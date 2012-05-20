@@ -55,8 +55,6 @@
 }
 
 
-
-
 /****************************
 * Editor layout
 *****************************/
@@ -339,3 +337,13 @@
   vertical-align: middle;
 }
 
+.armour .round_tracker {
+  width: 50px;
+  float: right;
+  margin: 0 0 0 5px;
+  text-align: center;
+}
+
+.armour .round_tracker * {
+  margin: auto;
+}
