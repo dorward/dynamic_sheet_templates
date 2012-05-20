@@ -49,6 +49,13 @@
   width: 244px;
 }
 
+/* Override default styling */
+.ds_victoriana th {
+  background: white;
+}
+
+
+
 
 /****************************
 * Editor layout
