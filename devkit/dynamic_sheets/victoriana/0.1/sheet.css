@@ -347,3 +347,45 @@
 .armour .round_tracker * {
   margin: auto;
 }
+
+/****************************
+* Fate 
+*****************************/
+.ds_victoriana .fate_pool .die {
+  float: left;
+}
+
+.ds_victoriana .fate_pool .round_tracker {
+  float: right;
+}
+
+.ds_victoriana .dice .die .fate_die_position_1 {
+  left: 2px;
+  top: 0px;
+}
+
+.ds_victoriana .dice .die .fate_die_position_2 {
+  left: 2px;
+  top: 11px;
+}
+
+.ds_victoriana .dice .die .fate_die_position_3 {
+  left: 2px;
+  top: 23px;
+}
+
+.ds_victoriana .dice .die .fate_die_position_4 {
+  right: 2px;
+  top: 0px;
+}
+
+.ds_victoriana .dice .die .fate_die_position_5 {
+  right: 2px;
+  top: 11px;
+}
+
+.ds_victoriana .dice .die .fate_die_position_6 {
+  right: 2px;
+  top: 23px;
+}
+
