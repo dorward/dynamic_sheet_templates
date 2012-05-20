@@ -8,7 +8,7 @@
 * Generic formatting
 *****************************/
 
-h3 {
+.ds_victoriana h3 {
   font-family: courier, "courier new", monospace;
   margin: 0;
   padding-top: 4px;
